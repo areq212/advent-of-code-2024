@@ -1,0 +1,9 @@
+[package]
+name = "day1"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+nom.workspace = true
+anyhow.workspace = true
+itertools.workspace = true
