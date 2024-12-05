@@ -1,8 +1,7 @@
 [workspace]
 resolver = "2"
-members = [ "common",
-    "day1", "day2", "day3", "day5",
-]
+default-members = ["day*"]
+members = ["day*"]
 
 [workspace.package]
 version = "0.1.0"
